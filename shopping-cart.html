@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orders</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <span>My Basket</span>
+    </header>
+    <main>
+      <div class="page-title">Order #12345</div>
+      <div class="order-content">
+        <section>
+          <table>
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>-</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img
+                      src="images/keyboard-mechanical.jpg"
+                      height="130"
+                      width="130"
+                      alt="Keyboard"
+                    />
+                    <div class="info">
+                      <div class="name">Keyboard</div>
+                      <div class="category">Acessories</div>
+                    </div>
+                  </div>
+                </td>
+                <td>£ 50,00</td>
+                <td>
+                  <div class="quantity">
+                    <button>
+                      <i class="bx bx-minus"></i>
+                    </button>
+                    <span>2</span>
+                    <button>
+                      <i class="bx bx-plus"></i>
+                    </button>
+                  </div>
+                </td>
+                <td>£ 100,00</td>
+                <td>
+                  <button class="remove">
+                    <i class="bx bx-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img
+                      src="images/chair-gamer.jpg"
+                      height="130"
+                      width="130"
+                      alt="Keyboard"
+                    />
+                    <div class="info">
+                      <div class="name">Chair Game</div>
+                      <div class="category">Acessories</div>
+                    </div>
+                  </div>
+                </td>
+                <td>£ 250,00</td>
+                <td>
+                  <div class="quantity">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>3</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>£ 750,00</td>
+                <td>
+                  <button class="remove"><i class="bx bx-trash"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img
+                      src="images/headset.jpg"
+                      height="130"
+                      width="130"
+                      alt="Keyboard"
+                    />
+                    <div class="info">
+                      <div class="name">Headset phone</div>
+                      <div class="category">Acessories</div>
+                    </div>
+                  </div>
+                </td>
+                <td>£ 45,00</td>
+                <td>
+                  <div class="quantity">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>2</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>£ 90,00</td>
+                <td>
+                  <button class="remove"><i class="bx bx-trash"></i></button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <aside>
+          <div class="box">
+            <header>Order Summary</header>
+            <div class="summary">
+              <div><span>Subtotal</span><span>£ 850,00</span></div>
+              <div><span>Shipping</span><span>£ 50,00</span></div>
+              <div>
+                <button>
+                  Add Discount<i class="bx bx-right-arrow-alt"></i>
+                </button>
+              </div>
+            </div>
+            <footer>
+              <span>Total </span>
+              <span> £ 900,00</span>
+            </footer>
+          </div>
+          <button>Checkout</button>
+        </aside>
+      </div>
+    </main>
+  </body>
+</html>
